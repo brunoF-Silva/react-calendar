@@ -65,7 +65,7 @@ const CalendarApp = () => {
           <textarea placeholder="Enter Event Text (Maximun 60 Characters)"></textarea>
           <button className="event-popup-btn">Add Event</button>
           <button className="close-event-popup">
-            <i className="bx bx"></i>
+            <i className="bx bx-x"></i>
           </button>
         </div>
         <div className="event">
@@ -76,7 +76,7 @@ const CalendarApp = () => {
           <div className="event-text">Meeting with John</div>
           <div className="event-buttons">
             <i className="bx bxs-edit-alt"></i>
-            <i className="bx bxs-message-alt-x"></i>
+            <i className="bx bxs-message-x"></i>
           </div>
         </div>
       </div>
